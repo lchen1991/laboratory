@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">LaboratoryApp</string>
+
+    <string name="browse_genres">流派</string>
+    <string name="browse_genre_subtitle">歌曲的风格</string>
+    <string name="browse_musics_by_genre_subtitle">%1$s songs</string>
+    <string name="favorite">最喜欢的</string>
+    <string name="error_no_metadata">无法检索元数据。</string>
+    <string name="search_queue_title">搜索结果</string>
+    <string name="random_queue_title">随机的音乐</string>
 </resources>
