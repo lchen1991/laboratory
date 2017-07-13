@@ -36,7 +36,7 @@ import java.util.List;
      private static final String TAG = LogHelper.makeLogTag(MusicService.class);
 
      // Extra on MediaSession that contains the Cast device name currently connected to
-     public static final String EXTRA_CONNECTED_CAST = "com.laboratory.chenlei.CAST_NAME";
+//     public static final String EXTRA_CONNECTED_CAST = "com.laboratory.chenlei.CAST_NAME";
      // The action of the incoming Intent indicating that it contains a command
      // to be executed (see {@link #onStartCommand})
      public static final String ACTION_CMD = "com.laboratory.chenlei.ACTION_CMD";
@@ -81,6 +81,7 @@ import java.util.List;
          // To make the app more responsive, fetch and cache catalog information now.
          // This can help improve the response time in the method
          // {@link #onLoadChildren(String, Result<List<MediaItem>>) onLoadChildren()}.
+
          mMusicProvider.retrieveMediaAsync(null /* Callback */);
 
 //         mPackageValidator = new PackageValidator(this);
@@ -170,9 +171,6 @@ import java.util.List;
                  if (CMD_PAUSE.equals(command)) {
                      mPlaybackManager.handlePauseRequest();
                  }
-//                 else if (CMD_STOP_CASTING.equals(command)) {
-//                     CastContext.getSharedInstance(this).getSessionManager().endCurrentSession(true);
-//                 }
              } else {
                  // Try to handle the intent as a media button event wrapped by MediaButtonReceiver
                  MediaButtonReceiver.handleIntent(mSession, startIntent);
@@ -196,11 +194,6 @@ import java.util.List;
          // Service is being killed, so make sure we release our resources
          mPlaybackManager.handleStopRequest(null);
 //         mMediaNotificationManager.stopNotification();
-
-//         if (mCastSessionManager != null) {
-//             mCastSessionManager.removeSessionManagerListener(mCastSessionManagerListener,
-//                     CastSession.class);
-//         }
 
          mDelayedStopHandler.removeCallbacksAndMessages(null);
          mSession.release();
