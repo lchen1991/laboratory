@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">music</string>
+
+    <string name="browse_genres">流派</string>
+    <string name="browse_genre_subtitle">歌曲的风格</string>
+    <string name="browse_musics_by_genre_subtitle">%1$s songs</string>
+    <string name="favorite">最喜欢的</string>
+    <string name="error_no_metadata">无法检索元数据。</string>
+    <string name="search_queue_title">搜索结果</string>
+    <string name="random_queue_title">随机的音乐</string>
+
+    <string name="currently_playing_song">正在播放的歌曲</string>
+    <string name="currently_playing_artist">当前演奏歌曲的艺术家</string>
+    <string name="currently_playing_extra_info">正在播放的歌曲</string>
+
+    <string name="play_item">Play item</string>
+    <string name="play_pause">播放或暂停</string>
+    <string name="skip_next">跳到下一个</string>
+    <string name="skip_prev">跳过前面的</string>
+
+    <string name="error_no_connection">无法连接到服务器。请检查你的网络连接</string>
+    <string name="error_loading_media">错误加载媒体</string>
+</resources>

@@ -5,10 +5,16 @@
       <module fileurl="file://$PROJECT_DIR$/LaboratoryApp.iml" filepath="$PROJECT_DIR$/LaboratoryApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/ijkplayer-armv7a/ijkplayer-armv7a.iml" filepath="$PROJECT_DIR$/ijkplayer-armv7a/ijkplayer-armv7a.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ijkplayer-armv7a/ijkplayer-armv7a.iml" filepath="$PROJECT_DIR$/ijkplayer-armv7a/ijkplayer-armv7a.iml" />
       <module fileurl="file://$PROJECT_DIR$/ijkplayer-exo/ijkplayer-exo.iml" filepath="$PROJECT_DIR$/ijkplayer-exo/ijkplayer-exo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ijkplayer-exo/ijkplayer-exo.iml" filepath="$PROJECT_DIR$/ijkplayer-exo/ijkplayer-exo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ijkplayer-java/ijkplayer-java.iml" filepath="$PROJECT_DIR$/ijkplayer-java/ijkplayer-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/ijkplayer-java/ijkplayer-java.iml" filepath="$PROJECT_DIR$/ijkplayer-java/ijkplayer-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/laboratory.iml" filepath="$PROJECT_DIR$/laboratory.iml" />
       <module fileurl="file://$PROJECT_DIR$/likingfitvideo/likingfitvideo.iml" filepath="$PROJECT_DIR$/likingfitvideo/likingfitvideo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/likinglibrary/likinglibrary.iml" filepath="$PROJECT_DIR$/likinglibrary/likinglibrary.iml" />
+      <module fileurl="file://$PROJECT_DIR$/likingmusic/likingmusic.iml" filepath="$PROJECT_DIR$/likingmusic/likingmusic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/likingvideo/likingvideo.iml" filepath="$PROJECT_DIR$/likingvideo/likingvideo.iml" />
     </modules>
   </component>
 </project>

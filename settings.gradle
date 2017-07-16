@@ -1,1 +1,1 @@
-include ':app', ':ijkplayer-java', ':ijkplayer-armv7a', ':ijkplayer-exo', ':likingfitvideo'
+include ':app', ':ijkplayer-java', ':ijkplayer-armv7a', ':ijkplayer-exo', ':likingvideo', ':likingmusic', ':likinglibrary'
